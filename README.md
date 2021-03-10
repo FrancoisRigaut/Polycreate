@@ -15,6 +15,6 @@ The intended features are the use of the gps to enable the robot to return back 
 
 
 
-Working environment: ![](C:\Users\triag\Desktop\Work\Polytech\Interp\Polycreate\readme_files\runningprogram.png)
+Working environment: ![](.\readme_files\runningprogram.png)
 
-![](C:\Users\triag\Desktop\Work\Polytech\Interp\Polycreate\readme_files\runningprogramwebots.png)
+![](.\readme_files\runningprogramwebots.png)
