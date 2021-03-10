@@ -14,4 +14,4 @@ Also, we use NumeralValue and RandomValue classes in order the customize the vis
 
 
 
-Here is the final model: ![](..\..\..\readme_files\model.png)
+Here is the final model: ![](../../../readme_files/model.png)
