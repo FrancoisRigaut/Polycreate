@@ -15,6 +15,6 @@ The intended features are the use of the gps to enable the robot to return back 
 
 
 
-Working environment: ![](.\readme_files\runningprogram.png)
+Working environment: ![](readme_files/runningprogram.png)
 
-![](.\readme_files\runningprogramwebots.png)
+![](readme_files/runningprogramwebots.png)
