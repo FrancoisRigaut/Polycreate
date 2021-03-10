@@ -8,4 +8,4 @@ Also, states loop on themselves when they are not interrupted by an event or whe
 
 Example of program: 
 
-![](..\..\..\readme_files\runningprogram.png)
+![](../../../readme_files/runningprogram.png)
