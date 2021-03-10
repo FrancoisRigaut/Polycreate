@@ -1,0 +1,68 @@
+/**
+ */
+package fr.polytech.mlg.releaze.house.polycreate.impl;
+
+import fr.polytech.mlg.releaze.house.polycreate.PolycreatePackage;
+import fr.polytech.mlg.releaze.house.polycreate.Value;
+
+import java.lang.reflect.InvocationTargetException;
+
+import org.eclipse.emf.common.util.EList;
+
+import org.eclipse.emf.ecore.EClass;
+
+import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Value</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * @generated
+ */
+public abstract class ValueImpl extends MinimalEObjectImpl.Container implements Value {
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ValueImpl() {
+		super();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return PolycreatePackage.Literals.VALUE;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public int get() {
+		// TODO: implement this method
+		// Ensure that you remove @generated or mark it @generated NOT
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object eInvoke(int operationID, EList<?> arguments) throws InvocationTargetException {
+		switch (operationID) {
+		case PolycreatePackage.VALUE___GET:
+			return get();
+		}
+		return super.eInvoke(operationID, arguments);
+	}
+
+} //ValueImpl

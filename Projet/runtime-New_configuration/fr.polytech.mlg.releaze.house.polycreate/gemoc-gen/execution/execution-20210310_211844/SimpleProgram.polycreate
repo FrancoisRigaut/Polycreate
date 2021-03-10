@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<polycreate:Program xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:polycreate="http://www.releaze-house.org/polycreate">
+  <events xsi:type="polycreate:CliffFront">
+    <instructions xsi:type="polycreate:Turn">
+      <angle xsi:type="polycreate:RandomValue" upperBound="360"/>
+    </instructions>
+    <states name="go_forward">
+      <instructions xsi:type="polycreate:GoForward">
+        <time xsi:type="polycreate:NumeralValue" value="1"/>
+      </instructions>
+      <instructions xsi:type="polycreate:GoForward">
+        <time xsi:type="polycreate:NumeralValue" value="1"/>
+      </instructions>
+    </states>
+  </events>
+</polycreate:Program>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/fr.polytech.mlg.releaze.house/src-gen" creationIcons="false"
+    editDirectory="/fr.polytech.mlg.releaze.house.edit/src-gen" editorDirectory="/fr.polytech.mlg.releaze.house.editor/src-gen"
+    modelPluginID="fr.polytech.mlg.releaze.house" modelName="Polycreate" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>polycreate.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Polycreate" basePackage="fr.polytech.mlg.releaze.house" disposableProviderFactory="true"
+      ecorePackage="polycreate.ecore#/">
+    <genClasses ecoreClass="polycreate.ecore#//Program">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//Program/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Program/states"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//Program/currentStateName"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Program/functions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Program/events"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//State">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//State/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="polycreate.ecore#//Instruction"/>
+    <genClasses image="false" ecoreClass="polycreate.ecore#//Turn">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Turn/angle"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="polycreate.ecore#//GoForward">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//GoForward/time"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//Function">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//Function/name"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//OpenGrip"/>
+    <genClasses ecoreClass="polycreate.ecore#//CloseGrip"/>
+    <genClasses ecoreClass="polycreate.ecore#//Event">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Event/states"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//BumpRight"/>
+    <genClasses ecoreClass="polycreate.ecore#//BumpLeft"/>
+    <genClasses ecoreClass="polycreate.ecore#//CliffRight"/>
+    <genClasses ecoreClass="polycreate.ecore#//CliffLeft"/>
+    <genClasses ecoreClass="polycreate.ecore#//AtStartingPoint"/>
+    <genClasses ecoreClass="polycreate.ecore#//CliffFront"/>
+    <genClasses ecoreClass="polycreate.ecore#//ObjectGrabbable"/>
+    <genClasses ecoreClass="polycreate.ecore#//Value">
+      <genOperations ecoreOperation="polycreate.ecore#//Value/get"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//NumeralValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//NumeralValue/value"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//RandomValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//RandomValue/lowerBound"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//RandomValue/upperBound"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//GoTo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//GoTo/stateName"/>
+    </genClasses>
+    <genClasses ecoreClass="polycreate.ecore#//InstructionsSet">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//InstructionsSet/instructions"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

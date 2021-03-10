@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:polycreate="http://www.releaze-house.org/polycreate" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_za2a4G79Eeute-cVG1puQA" selectedViews="_6NDHcG79Eeute-cVG1puQA" version="14.1.0.201810161215">
+    <semanticResources>SimpleProgram.polycreate</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20210215_180418/SimpleProgram.polycreate</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20210310_211844/SimpleProgram.polycreate</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20210310_215623/SimpleProgram.polycreate</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_6NDHcG79Eeute-cVG1puQA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_J980YG7-Eeute-cVG1puQA" name="HelloWorld" repPath="#_J8W48G7-Eeute-cVG1puQA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']"/>
+        <target xmi:type="polycreate:Program" href="SimpleProgram.polycreate#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_J8W48G7-Eeute-cVG1puQA" name="HelloWorld">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_J9zqcG7-Eeute-cVG1puQA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_J904kG7-Eeute-cVG1puQA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_J_u9EG7-Eeute-cVG1puQA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_J_vkIG7-Eeute-cVG1puQA" type="Sirius" element="_J8W48G7-Eeute-cVG1puQA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_DK2AkIHQEeuIifenkBJ39A" type="2002" element="_DJmDYIHQEeuIifenkBJ39A">
+          <children xmi:type="notation:Node" xmi:id="_DK2noIHQEeuIifenkBJ39A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DK3OsIHQEeuIifenkBJ39A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_2cjBoIHSEeuIifenkBJ39A" type="3007" element="_2bht8IHSEeuIifenkBJ39A">
+              <children xmi:type="notation:Node" xmi:id="_2cjBo4HSEeuIifenkBJ39A" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2cjBpIHSEeuIifenkBJ39A" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2cjBpYHSEeuIifenkBJ39A" type="3001" element="_2biVAoHSEeuIifenkBJ39A">
+                <children xmi:type="notation:Node" xmi:id="_2cjosIHSEeuIifenkBJ39A" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_2cjosYHSEeuIifenkBJ39A" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_2ckPw4HSEeuIifenkBJ39A" type="3016" element="_2bi8EIHSEeuIifenkBJ39A">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_2ckPxIHSEeuIifenkBJ39A" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ckPxYHSEeuIifenkBJ39A"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2cjBpoHSEeuIifenkBJ39A" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2cjBp4HSEeuIifenkBJ39A" x="-22" width="30" height="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2ckPwIHSEeuIifenkBJ39A" type="3005" element="_2biVAIHSEeuIifenkBJ39A">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2ckPwYHSEeuIifenkBJ39A" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ckPwoHSEeuIifenkBJ39A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2cjBoYHSEeuIifenkBJ39A" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2cjBooHSEeuIifenkBJ39A" x="32" y="126" width="150" height="150"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DK3OsYHQEeuIifenkBJ39A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DK3OsoHQEeuIifenkBJ39A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DK2AkYHQEeuIifenkBJ39A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DK2AkoHQEeuIifenkBJ39A" x="792" y="282" width="428" height="338"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_7hRDQIHTEeuIifenkBJ39A" type="2002" element="_7gUoEIHTEeuIifenkBJ39A">
+          <children xmi:type="notation:Node" xmi:id="_7hRqUIHTEeuIifenkBJ39A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_7hRqUYHTEeuIifenkBJ39A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_7hRqVIHTEeuIifenkBJ39A" type="3007" element="_7gWdQIHTEeuIifenkBJ39A">
+              <children xmi:type="notation:Node" xmi:id="_7hRqV4HTEeuIifenkBJ39A" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_7hRqWIHTEeuIifenkBJ39A" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_7hRqWYHTEeuIifenkBJ39A" type="3005" element="_7gWdQYHTEeuIifenkBJ39A">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_7hRqWoHTEeuIifenkBJ39A" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7hRqW4HTEeuIifenkBJ39A"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rIo44YHcEeuIifenkBJ39A" type="3001" element="_rBquNIHcEeuIifenkBJ39A">
+                <children xmi:type="notation:Node" xmi:id="_rIo45IHcEeuIifenkBJ39A" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_rIo45YHcEeuIifenkBJ39A" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_rIpf8IHcEeuIifenkBJ39A" type="3016" element="_rBquNYHcEeuIifenkBJ39A">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_rIpf8YHcEeuIifenkBJ39A" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIpf8oHcEeuIifenkBJ39A"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rIo44oHcEeuIifenkBJ39A" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIo444HcEeuIifenkBJ39A" x="-22" width="30" height="30"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_7hRqVYHTEeuIifenkBJ39A" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7hRqVoHTEeuIifenkBJ39A" x="31" y="30" width="150" height="150"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rH-KgIHcEeuIifenkBJ39A" type="3007" element="_rBqHJIHcEeuIifenkBJ39A">
+              <children xmi:type="notation:Node" xmi:id="_rIoR0IHcEeuIifenkBJ39A" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rIo44IHcEeuIifenkBJ39A" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rIpf84HcEeuIifenkBJ39A" type="3001" element="_rBquMYHcEeuIifenkBJ39A">
+                <children xmi:type="notation:Node" xmi:id="_rIpf9oHcEeuIifenkBJ39A" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_rIpf94HcEeuIifenkBJ39A" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_rIqHAoHcEeuIifenkBJ39A" type="3016" element="_rBquMoHcEeuIifenkBJ39A">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_rIqHA4HcEeuIifenkBJ39A" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIqHBIHcEeuIifenkBJ39A"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rIpf9IHcEeuIifenkBJ39A" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIpf9YHcEeuIifenkBJ39A" x="-22" width="30" height="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rIpf-IHcEeuIifenkBJ39A" type="3005" element="_rBqHJYHcEeuIifenkBJ39A">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rIqHAIHcEeuIifenkBJ39A" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIqHAYHcEeuIifenkBJ39A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rH-KgYHcEeuIifenkBJ39A" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rH-KgoHcEeuIifenkBJ39A" x="243" y="102" width="150" height="150"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_7hRqUoHTEeuIifenkBJ39A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_7hRqU4HTEeuIifenkBJ39A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7hRDQYHTEeuIifenkBJ39A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7hRDQoHTEeuIifenkBJ39A" width="555" height="447"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_J_vkIW7-Eeute-cVG1puQA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_7hSRYIHTEeuIifenkBJ39A" type="4001" element="_7gZgkoHTEeuIifenkBJ39A" source="_DK2AkIHQEeuIifenkBJ39A" target="_7hRDQIHTEeuIifenkBJ39A">
+          <children xmi:type="notation:Node" xmi:id="_7hSRZIHTEeuIifenkBJ39A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7hSRZYHTEeuIifenkBJ39A" x="3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7hSRZoHTEeuIifenkBJ39A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7hSRZ4HTEeuIifenkBJ39A" x="5" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7hSRaIHTEeuIifenkBJ39A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7hSRaYHTEeuIifenkBJ39A" x="10" y="13"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7hSRYYHTEeuIifenkBJ39A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7hSRYoHTEeuIifenkBJ39A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7hSRY4HTEeuIifenkBJ39A" points="[0, 0, 909, 90]$[-909, -90, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7hSRaoHTEeuIifenkBJ39A" id="(0.5023474178403756,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7hSRa4HTEeuIifenkBJ39A" id="(0.19497826648546046,0.43113772455089816)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rIqHBYHcEeuIifenkBJ39A" type="4001" element="_rDvx0IHcEeuIifenkBJ39A" source="_7hRqVIHTEeuIifenkBJ39A" target="_rH-KgIHcEeuIifenkBJ39A">
+          <children xmi:type="notation:Node" xmi:id="_rIquEIHcEeuIifenkBJ39A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIquEYHcEeuIifenkBJ39A" x="-3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rIquEoHcEeuIifenkBJ39A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIquE4HcEeuIifenkBJ39A" x="3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rIquFIHcEeuIifenkBJ39A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rIquFYHcEeuIifenkBJ39A" x="3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rIqHBoHcEeuIifenkBJ39A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rIqHB4HcEeuIifenkBJ39A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rIqHCIHcEeuIifenkBJ39A" points="[75, 25, -137, -47]$[137, 46, -75, -26]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rJdYQIHcEeuIifenkBJ39A" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rJdYQYHcEeuIifenkBJ39A" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DJmDYIHQEeuIifenkBJ39A" name="Cliff front" outgoingEdges="_7gZgkoHTEeuIifenkBJ39A">
+      <target xmi:type="polycreate:CliffFront" href="SimpleProgram.polycreate#//@events.0"/>
+      <semanticElements xmi:type="polycreate:CliffFront" href="SimpleProgram.polycreate#//@events.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DJn4kIHQEeuIifenkBJ39A" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="39,76,114">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffFront']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffFront']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_2bht8IHSEeuIifenkBJ39A" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="polycreate:Turn" href="SimpleProgram.polycreate#//@events.0/@instructions.0"/>
+        <semanticElements xmi:type="polycreate:Turn" href="SimpleProgram.polycreate#//@events.0/@instructions.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2biVAoHSEeuIifenkBJ39A" name="0 - 360°" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="polycreate:RandomValue" href="SimpleProgram.polycreate#//@events.0/@instructions.0/@angle"/>
+          <semanticElements xmi:type="polycreate:RandomValue" href="SimpleProgram.polycreate#//@events.0/@instructions.0/@angle"/>
+          <ownedStyle xmi:type="diagram:Ellipse" uid="_2bi8EIHSEeuIifenkBJ39A" labelSize="9" showIcon="false" labelPosition="node" color="138,226,52">
+            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffFront']/@subNodeMappings[name='Turn']/@borderedNodeMappings[name='RandomValue']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffFront']/@subNodeMappings[name='Turn']/@borderedNodeMappings[name='RandomValue']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_2biVAIHSEeuIifenkBJ39A" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/Turn.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffFront']/@subNodeMappings[name='Turn']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffFront']/@subNodeMappings[name='Turn']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7gUoEIHTEeuIifenkBJ39A" name="go_forward" incomingEdges="_7gZgkoHTEeuIifenkBJ39A">
+      <target xmi:type="polycreate:State" href="SimpleProgram.polycreate#//@events.0/@states.0"/>
+      <semanticElements xmi:type="polycreate:State" href="SimpleProgram.polycreate#//@events.0/@states.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7gUoEYHTEeuIifenkBJ39A" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="156,12,12">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_7gWdQIHTEeuIifenkBJ39A" outgoingEdges="_rDvx0IHcEeuIifenkBJ39A" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="polycreate:GoForward" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.0"/>
+        <semanticElements xmi:type="polycreate:GoForward" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_rBquNIHcEeuIifenkBJ39A" name="1cm" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="polycreate:NumeralValue" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.0/@time"/>
+          <semanticElements xmi:type="polycreate:NumeralValue" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.0/@time"/>
+          <ownedStyle xmi:type="diagram:Ellipse" uid="_rBquNYHcEeuIifenkBJ39A" labelSize="9" showIcon="false" labelPosition="node">
+            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='NumeralValue']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='NumeralValue']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7gWdQYHTEeuIifenkBJ39A" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_rBqHJIHcEeuIifenkBJ39A" incomingEdges="_rDvx0IHcEeuIifenkBJ39A" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="polycreate:GoForward" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.1"/>
+        <semanticElements xmi:type="polycreate:GoForward" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_rBquMYHcEeuIifenkBJ39A" name="1cm" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="polycreate:NumeralValue" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.1/@time"/>
+          <semanticElements xmi:type="polycreate:NumeralValue" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.1/@time"/>
+          <ownedStyle xmi:type="diagram:Ellipse" uid="_rBquMoHcEeuIifenkBJ39A" labelSize="9" showIcon="false" labelPosition="node">
+            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='NumeralValue']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='NumeralValue']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_rBqHJYHcEeuIifenkBJ39A" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_7gZgkoHTEeuIifenkBJ39A" sourceNode="_DJmDYIHQEeuIifenkBJ39A" targetNode="_7gUoEIHTEeuIifenkBJ39A">
+      <target xmi:type="polycreate:CliffFront" href="SimpleProgram.polycreate#//@events.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_7gaHoIHTEeuIifenkBJ39A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@edgeMappings[name='LinkedStates']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_7gaHoYHTEeuIifenkBJ39A" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@edgeMappings[name='LinkedStates']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_rDvx0IHcEeuIifenkBJ39A" sourceNode="_7gWdQIHTEeuIifenkBJ39A" targetNode="_rBqHJIHcEeuIifenkBJ39A">
+      <target xmi:type="polycreate:GoForward" href="SimpleProgram.polycreate#//@events.0/@states.0/@instructions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_rDvx0YHcEeuIifenkBJ39A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@edgeMappings[name='NextInstruction']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_rDvx0oHcEeuIifenkBJ39A" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@edgeMappings[name='NextInstruction']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_J8whkG7-Eeute-cVG1puQA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.polytech.mlg.releaze.house.design/description/polycreate.odesign#//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer"/>
+    <target xmi:type="polycreate:Program" href="SimpleProgram.polycreate#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

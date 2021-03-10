@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" name="polycreate" version="12.0.0.2017041100">
+  <ownedViewpoints name="Polycreate">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Program" domainClass="polycreate::Program" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <edgeMappings name="NextInstruction" sourceMapping="//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='CloseGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoTo'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='OpenGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn']" targetMapping="//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='CloseGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoTo'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='OpenGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn']" targetFinderExpression="service:getNextInstruction()">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="LinkedStates" sourceMapping="//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='BumpLeft'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='BumpRight'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffFront'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffLeft'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='CliffRight']" targetMapping="//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']" targetFinderExpression="service:getLinkedStates()">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="State" domainClass="polycreate::State">
+          <subNodeMappings name="GoForward" domainClass="polycreate::GoForward">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'cm'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+aql:self.upperBound+'m'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Turn" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::Turn">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+self.upperBound+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/Turn.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="CloseGrip" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/CloseGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OpenGrip" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/OpenGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="GoTo" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::GoTo">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:stateName" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoTo.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_red']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="BumpRight" label="BumpRight" domainClass="polycreate::BumpRight">
+          <subNodeMappings name="GoForward" preconditionExpression="service:isInEvent" domainClass="polycreate::GoForward">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'cm'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+aql:self.upperBound+'m'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Turn" preconditionExpression="service:isInEvent" domainClass="polycreate::Turn">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+self.upperBound+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/Turn.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="CloseGrip" preconditionExpression="service:isInEvent" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/CloseGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OpenGrip" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/OpenGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="GoTo" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::GoTo">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoTo.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Bump right" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="BumpLeft" label="BumpLeft" domainClass="polycreate::BumpLeft">
+          <subNodeMappings name="GoForward" preconditionExpression="service:isInEvent" domainClass="polycreate::GoForward">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'cm'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+aql:self.upperBound+'m'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Turn" preconditionExpression="service:isInEvent" domainClass="polycreate::Turn">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+self.upperBound+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/Turn.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="CloseGrip" preconditionExpression="service:isInEvent" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/CloseGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OpenGrip" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/OpenGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="GoTo" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::GoTo">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoTo.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Bump left" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="CliffRight" label="CliffRight" domainClass="polycreate::CliffRight">
+          <subNodeMappings name="GoForward" preconditionExpression="service:isInEvent" domainClass="polycreate::GoForward">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'cm'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+aql:self.upperBound+'m'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Turn" preconditionExpression="service:isInEvent" domainClass="polycreate::Turn">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+self.upperBound+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/Turn.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="CloseGrip" preconditionExpression="service:isInEvent" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/CloseGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OpenGrip" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/OpenGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="GoTo" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::GoTo">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoTo.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Cliff right" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="CliffLeft" label="CliffLeft" domainClass="polycreate::CliffLeft">
+          <subNodeMappings name="GoForward" preconditionExpression="service:isInEvent" domainClass="polycreate::GoForward">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'cm'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+aql:self.upperBound+'m'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Turn" preconditionExpression="service:isInEvent" domainClass="polycreate::Turn">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+self.upperBound+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/Turn.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="CloseGrip" preconditionExpression="service:isInEvent" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/CloseGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OpenGrip" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/OpenGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="GoTo" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::GoTo">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoTo.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Cliff left" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="CliffFront" label="CliffFront" domainClass="polycreate::CliffFront">
+          <subNodeMappings name="GoForward" preconditionExpression="service:isInEvent" domainClass="polycreate::GoForward">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'cm'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+aql:self.upperBound+'m'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoForward.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Turn" preconditionExpression="service:isInEvent" domainClass="polycreate::Turn">
+            <borderedNodeMappings name="NumeralValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::NumeralValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.value+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="RandomValue" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::RandomValue">
+              <style xsi:type="style:EllipseNodeDescription" labelSize="9" showIcon="false" labelExpression="aql:self.lowerBound+' - '+self.upperBound+'°'" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/Turn.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="CloseGrip" preconditionExpression="service:isInEvent" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/CloseGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OpenGrip" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::CloseGrip">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/OpenGrip.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="GoTo" preconditionExpression="service:isInEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::GoTo">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/fr.polytech.mlg.releaze.house.design/icons/GoTo.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Cliff front" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+      <additionalLayers name="Debug" activeByDefault="true">
+        <toolSections name="Debug">
+          <ownedTools xsi:type="tool:PopupMenu" name="Gemoc">
+            <menuItemDescription xsi:type="tool:OperationAction" name="Debug" icon="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/debug_exc.gif">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:ExternalJavaAction" name="Debug" icon="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/debug_exc.gif" id="org.eclipse.gemoc.execution.sequential.javaengine.ui.debug.sirius.action.gemocDebugAs"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool:OperationAction" name="Toggle breakpoint" icon="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/debug_exc.gif">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:ExternalJavaAction" name="Toggle Gemoc breakpoint" icon="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/breakpoint.gif" id="org.eclipse.gemoc.execution.sequential.javaengine.ui.debug.sirius.action.GemocSequentialToggleBreakpointAction"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool:OperationAction" name="Toggle conditional breakpoint" icon="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/debug_exc.gif">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool:ExternalJavaAction" name="Toggle Gemoc conditional breakpoint" icon="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/breakpoint.gif" id="org.eclipse.gemoc.execution.sequential.javaengine.ui.debug.sirius.action.GemocSequentialToggleConditionalBreakpointAction"/>
+              </initialOperation>
+            </menuItemDescription>
+          </ownedTools>
+        </toolSections>
+        <decorationDescriptionsSet>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="Enabled breakpoint" position="WEST" preconditionExpression="service:self.hasEnabledBreakpoint" imageExpression="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/breakpoint_enabled.gif" mappings="//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='NumeralValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='RandomValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn']/@borderedNodeMappings[name='NumeralValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn']/@borderedNodeMappings[name='RandomValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='CloseGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='OpenGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoTo']"/>
+          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration" name="Disabled breakpoint" position="WEST" preconditionExpression="service:self.hasDisabledBreakpoint" imageExpression="/org.eclipse.gemoc.executionframework.extensions.sirius/icons/breakpoint_disabled.gif" mappings="//@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='NumeralValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoForward']/@borderedNodeMappings[name='RandomValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn']/@borderedNodeMappings[name='NumeralValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='Turn']/@borderedNodeMappings[name='RandomValue'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='CloseGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='OpenGrip'] //@ownedViewpoints[name='Polycreate']/@ownedRepresentations[name='Program']/@defaultLayer/@containerMappings[name='State']/@subNodeMappings[name='GoTo']"/>
+        </decorationDescriptionsSet>
+        <customization>
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="service:self.isCurrentInstruction">
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="borderColor" value="//@userColorsPalettes[name='Program%20Palette']/@entries[name='current%20instruction']"/>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="strokeColor" value="//@userColorsPalettes[name='Program%20Palette']/@entries[name='current%20instruction']"/>
+            <featureCustomizations xsi:type="description:EReferenceCustomization" applyOnAll="true" referenceName="labelColor" value="//@userColorsPalettes[name='Program%20Palette']/@entries[name='current%20instruction']"/>
+          </vsmElementCustomizations>
+        </customization>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="fr.polytech.mlg.releaze.house.design.Services"/>
+    <ownedJavaExtensions qualifiedClassName="fr.polytech.mlg.releaze.house.design.services.ProgramDebugServices"/>
+  </ownedViewpoints>
+  <userColorsPalettes name="Program Palette">
+    <entries xsi:type="description:UserFixedColor" red="255" green="255" blue="0" name="current instruction"/>
+  </userColorsPalettes>
+</description:Group>

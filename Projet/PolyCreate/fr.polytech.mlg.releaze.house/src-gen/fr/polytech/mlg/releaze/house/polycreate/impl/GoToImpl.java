@@ -1,0 +1,164 @@
+/**
+ */
+package fr.polytech.mlg.releaze.house.polycreate.impl;
+
+import fr.polytech.mlg.releaze.house.polycreate.GoTo;
+import fr.polytech.mlg.releaze.house.polycreate.PolycreatePackage;
+
+import org.eclipse.emf.common.notify.Notification;
+
+import org.eclipse.emf.ecore.EClass;
+
+import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Go To</b></em>'.
+ * <!-- end-user-doc -->
+ * <p>
+ * The following features are implemented:
+ * </p>
+ * <ul>
+ *   <li>{@link fr.polytech.mlg.releaze.house.polycreate.impl.GoToImpl#getStateName <em>State Name</em>}</li>
+ * </ul>
+ *
+ * @generated
+ */
+public class GoToImpl extends InstructionImpl implements GoTo {
+	/**
+	 * The default value of the '{@link #getStateName() <em>State Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getStateName()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String STATE_NAME_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getStateName() <em>State Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getStateName()
+	 * @generated
+	 * @ordered
+	 */
+	protected String stateName = STATE_NAME_EDEFAULT;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected GoToImpl() {
+		super();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return PolycreatePackage.Literals.GO_TO;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public String getStateName() {
+		return stateName;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setStateName(String newStateName) {
+		String oldStateName = stateName;
+		stateName = newStateName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, PolycreatePackage.GO_TO__STATE_NAME, oldStateName,
+					stateName));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+		switch (featureID) {
+		case PolycreatePackage.GO_TO__STATE_NAME:
+			return getStateName();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void eSet(int featureID, Object newValue) {
+		switch (featureID) {
+		case PolycreatePackage.GO_TO__STATE_NAME:
+			setStateName((String) newValue);
+			return;
+		}
+		super.eSet(featureID, newValue);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void eUnset(int featureID) {
+		switch (featureID) {
+		case PolycreatePackage.GO_TO__STATE_NAME:
+			setStateName(STATE_NAME_EDEFAULT);
+			return;
+		}
+		super.eUnset(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public boolean eIsSet(int featureID) {
+		switch (featureID) {
+		case PolycreatePackage.GO_TO__STATE_NAME:
+			return STATE_NAME_EDEFAULT == null ? stateName != null : !STATE_NAME_EDEFAULT.equals(stateName);
+		}
+		return super.eIsSet(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String toString() {
+		if (eIsProxy())
+			return super.toString();
+
+		StringBuilder result = new StringBuilder(super.toString());
+		result.append(" (stateName: ");
+		result.append(stateName);
+		result.append(')');
+		return result.toString();
+	}
+
+} //GoToImpl

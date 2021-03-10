@@ -1,0 +1,55 @@
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.OpenGripAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.OpenGrip){
+			fr.polytech.mlg.releaze.house.rewritingrules.OpenGripAspect.runIt((fr.polytech.mlg.releaze.house.polycreate.OpenGrip)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.OpenGripAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.ValueAspect#int get() from fr.polytech.mlg.releaze.house.rewritingrules.NumeralValueAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.NumeralValue){
+			result = fr.polytech.mlg.releaze.house.rewritingrules.NumeralValueAspect.get((fr.polytech.mlg.releaze.house.polycreate.NumeralValue)_self);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.ValueAspect#int get() from fr.polytech.mlg.releaze.house.rewritingrules.NumeralValueAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.BumpLeftAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.BumpLeft){
+			result = fr.polytech.mlg.releaze.house.rewritingrules.BumpLeftAspect.scanIt((fr.polytech.mlg.releaze.house.polycreate.BumpLeft)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.BumpLeftAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CliffLeftAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.CliffLeft){
+			result = fr.polytech.mlg.releaze.house.rewritingrules.CliffLeftAspect.scanIt((fr.polytech.mlg.releaze.house.polycreate.CliffLeft)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CliffLeftAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.AtStartingPointAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.AtStartingPoint){
+			result = fr.polytech.mlg.releaze.house.rewritingrules.AtStartingPointAspect.scanIt((fr.polytech.mlg.releaze.house.polycreate.AtStartingPoint)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.AtStartingPointAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.TurnAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.Turn){
+			fr.polytech.mlg.releaze.house.rewritingrules.TurnAspect.runIt((fr.polytech.mlg.releaze.house.polycreate.Turn)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.TurnAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CliffRightAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.CliffRight){
+			result = fr.polytech.mlg.releaze.house.rewritingrules.CliffRightAspect.scanIt((fr.polytech.mlg.releaze.house.polycreate.CliffRight)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CliffRightAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CloseGripAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.CloseGrip){
+			fr.polytech.mlg.releaze.house.rewritingrules.CloseGripAspect.runIt((fr.polytech.mlg.releaze.house.polycreate.CloseGrip)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CloseGripAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CliffFrontAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.CliffFront){
+			result = fr.polytech.mlg.releaze.house.rewritingrules.CliffFrontAspect.scanIt((fr.polytech.mlg.releaze.house.polycreate.CliffFront)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.CliffFrontAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.GoForwardAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.GoForward){
+			fr.polytech.mlg.releaze.house.rewritingrules.GoForwardAspect.runIt((fr.polytech.mlg.releaze.house.polycreate.GoForward)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.InstructionAspect#void runIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.GoForwardAspect
+	// BeginInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.BumpRightAspect
+		if (_self instanceof fr.polytech.mlg.releaze.house.polycreate.BumpRight){
+			result = fr.polytech.mlg.releaze.house.rewritingrules.BumpRightAspect.scanIt((fr.polytech.mlg.releaze.house.polycreate.BumpRight)_self,prog);
+		} else
+		// EndInjectInto fr.polytech.mlg.releaze.house.rewritingrules.EventAspect#boolean scanIt(Program) from fr.polytech.mlg.releaze.house.rewritingrules.BumpRightAspect

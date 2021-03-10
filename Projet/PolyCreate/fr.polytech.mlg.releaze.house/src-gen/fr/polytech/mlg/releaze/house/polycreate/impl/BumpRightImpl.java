@@ -1,0 +1,37 @@
+/**
+ */
+package fr.polytech.mlg.releaze.house.polycreate.impl;
+
+import fr.polytech.mlg.releaze.house.polycreate.BumpRight;
+import fr.polytech.mlg.releaze.house.polycreate.PolycreatePackage;
+
+import org.eclipse.emf.ecore.EClass;
+
+/**
+ * <!-- begin-user-doc -->
+ * An implementation of the model object '<em><b>Bump Right</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * @generated
+ */
+public class BumpRightImpl extends EventImpl implements BumpRight {
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected BumpRightImpl() {
+		super();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EClass eStaticClass() {
+		return PolycreatePackage.Literals.BUMP_RIGHT;
+	}
+
+} //BumpRightImpl
